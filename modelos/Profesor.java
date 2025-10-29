@@ -1,7 +1,7 @@
 public class Profesor extends Usuario {
 
-    public Profesor(String usuario, String contrasena) {
-        super(usuario, contrasena);
+    public Profesor(String usuario, String contrasena, String nombre, String Apellido) {
+        super(usuario, contrasena, nombre, apellido);
     }
 
     public void cargarActividadSumativa(Curso curso, ActividadSumativa AdtividadSumativa) {
