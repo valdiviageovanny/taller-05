@@ -9,6 +9,6 @@ public class Estudiante extends Usuario {
     }
 
     public void realizarActividadSumativa(Curso curso, ActividadSumativa ActividadSumativa) {
-        ActividadSumativa.registrarEntrega(this, "La actividad sumativa fue entregada por: " + this.usuario);
+        //ActividadSumativa.registrarEntrega(this, "La actividad sumativa fue entregada por: " + this.usuario);
     }
 }

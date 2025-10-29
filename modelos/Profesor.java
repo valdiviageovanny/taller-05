@@ -1,6 +1,6 @@
 public class Profesor extends Usuario {
 
-    public Profesor(String usuario, String contrasena, String nombre, String Apellido) {
+    public Profesor(String usuario, String contrasena, String nombre, String apellido) {
         super(usuario, contrasena, nombre, apellido);
     }
 
@@ -17,7 +17,7 @@ public class Profesor extends Usuario {
     }
 
     public Foro crearNuevoForo(Foro foro) {
-        Foro foro = new Foro();
+        Foro foro = new Foro("id","nombre");
         curso.agregarForo(foro);
         return foro;
     }

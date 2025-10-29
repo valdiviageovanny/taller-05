@@ -12,6 +12,10 @@ public class SoporteTecnico {
         // codigo
     }
 
+    public void registrarIncidente(String email, String contenido, SoporteTecnico soporte){
+        // codigo
+    }
+
     public void derivarProblemaDeGestion(Administrador admin, Incidente incidente) {
         incidente.registrarAccion("Derivado a administración por " + admin.getUsuario());
     }
