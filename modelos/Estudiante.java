@@ -1,7 +1,7 @@
 public class Estudiante extends Usuario {
 
-    public Estudiante(String usuario, String contrasena) {
-        super(usuario, contrasena);
+    public Estudiante(String usuario, String contrasena, String nombre, String apellido) {
+        super(usuario, contrasena, nombre, apellido);
     }
 
     public void solicitarInscripcionCurso(Curso curso) {
